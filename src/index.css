@@ -1,3 +1,7 @@
+html {
+  background-image: url("./tic-tac-toe.png");
+}
+
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
@@ -6,6 +10,10 @@ body {
   h1 {
       display: block;
       margin-bottom: 5vh;
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      font-size: 2rem;
   }
   
   ol, ul {
@@ -31,15 +39,15 @@ body {
     background: #fff;
     border: 1px solid #999;
     float: left;
-    font-size: 24px;
+    font-size: 37px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 50px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 50px;
   }
   
   .square:focus {
@@ -58,5 +66,8 @@ body {
   
   .game-info {
     margin-left: 20px;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 10px;
   }
   
